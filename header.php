@@ -216,6 +216,12 @@
                                         <span>Realisasi Kewajiban Cabang</span>
                                     </a>
                                 </li>
+                                <li class="side-menu-item">
+                                    <a href="transaksi-va.php" class="d-flex">
+                                        <span class="menu-icon-child"><i class="fa fa-donate"></i></span>
+                                        <span>Transaksi VA</span>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -315,6 +321,28 @@
                                         <span>Kelengkapan Biodata</span>
                                     </a>
                                 </li>
+
+                                <li class="side-menu-item">
+                                    <a href="jadwal-ujian-semester.php">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>Ujian Semester</span>
+                                    </a>
+                                </li>
+
+                                <li class="side-menu-item">
+                                    <a href="form-ebook-kurikulum.php">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>E-Book</span>
+                                    </a>
+                                </li>
+
+                                <li class="side-menu-item">
+                                    <a href="rekap-kehadiran.php">
+                                        <span class="menu-icon-child"><i class="fa fa-university"></i></span>
+                                        <span>Rekap Kehadiran</span>
+                                    </a>
+                                </li>
+
                             </ul>
                         </li>
                         <li class="side-menu-item">
@@ -330,9 +358,35 @@
                                     </a>
                                 </li>
                                 <li class="side-menu-item">
+                                    <a href="kegiatan-perkuliahan.php">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Proses Perkuliahan</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
+                                    <a href="nilai-mhs.php">
+                                        <span class="menu-icon-child"><i class="fa fa-user"></i></span>
+                                        <span>Aktifitas Mahasiswa</span>
+                                    </a>
+                                </li>
+                                <li class="side-menu-item">
                                     <a href="message.php">
                                         <span class="menu-icon-child"><i class="fa fa-user"></i></span>
                                         <span>Chat Message</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="side-menu-item">
+                            <a href="#" class="menu-collaps">
+                                <span class="menu-icon"><i class="fa fa-users"></i></span>
+                                <span class="menu-title">Mahasiswa</span>
+                            </a>
+                            <ul class="submenu-menu-item">
+                                <li class="side-menu-item">
+                                    <a href="jadual-kuliah.php">
+                                        <span class="menu-icon-child"><i class="fa fa-users"></i></span>
+                                        <span class="menu-title">Jadwal Kuliah</span>
                                     </a>
                                 </li>
                             </ul>
