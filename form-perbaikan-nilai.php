@@ -1,8 +1,25 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="#">Perkuliahan</a>
+        <a href="form-perbaikan-nilai.php">Komponen Nilai</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
+
+        <div class="py-1">
+            <div class="card">
+                <div class="d-flex flex-start">
+                    <a href="form-perbaikan-nilai-card.php" target="_blank" class="btn-status btn-primary"><i class="fa fa-list"></i> Komponen</a>
+                    <a href="report-khs-cetak.php" target="_blank" class="btn-status btn-primary" style="margin-left:5px"><i class="fa fa-file-pdf"></i> KHS</a>
+                    <a href="#" class="btn-status btn-danger" style="margin-left:5px" disabled><i class="fa fa-edit"></i> Form Perbaikan Nilai</a>
+                </div>
+            </div>
+        </div>
 
         <div class="py-1">
 
@@ -10,7 +27,7 @@
 
             <div class="card">
                 <div class="card-header d-flex flex-space-between">
-                    <h6>List Nilai Komponen </h6>
+                    <h6>List Komponen Nilai</h6>
 
                     <div class="select-export">
                         <div type="button" class="btn btn-link btn-secondary dropdown-button"><i class="fas fa-file-export"></i> Export</div>
@@ -41,7 +58,7 @@
                     </div>
 
                     <div class="table-responsive">
-                        <table class="basic-table display-pa">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left">Mata Kuliah</th>

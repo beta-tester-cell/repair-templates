@@ -1,7 +1,13 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Dosen</a>
+        <a href="jadwal-perkuliahan-dosen.php">Jadwal Perkuliahan</a>
+    </div>
+</div>
 <div class="content">
-    <div class="container">
+    <div class="container" style="height:80vh">
 
         <div class="py-1">
             <div class="card">
@@ -72,12 +78,12 @@
                                 <td class="dt-center">27</td>
                                 <td class="dt-center">
                                     <a href="kegiatan-perkuliahan.php" class="btn btn-link text-secondary" title="View"><i class="fa fa-eye"></i></a>
-                                    <a href="#" class="btn btn-link text-danger" title="Absensi"><i class="fa fa-check-square-o"></i></a>
+                                    <a href="kehadiran-mhs.php" class="btn btn-link text-danger" title="Absensi"><i class="fa fa-check-square-o"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="dt-center">2</td>
-                                <td>Basis Data</td>
+                                <td>Pemograman Dasar</td>
                                 <td class="dt-center">4</td>
                                 <td class="dt-center">1</td>
                                 <td>IK_REGuler 01</td>
@@ -87,7 +93,7 @@
                                 <td class="dt-center"><a href="#"><b>Download</b></a></td>
                                 <td class="dt-center">27</td>
                                 <td class="dt-center">
-                                    <a href="kegiatan-perkuliahan.php" class="btn btn-link text-secondary" title="View"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="btn btn-link text-secondary" title="View"><i class="fa fa-eye"></i></a>
                                     <a href="#" class="btn btn-link text-danger" title="Absensi"><i class="fa fa-check-square-o"></i></a>
                                 </td>
                             </tr>

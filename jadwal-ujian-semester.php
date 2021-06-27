@@ -1,5 +1,12 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="#">Perkuliahan</a>
+        <a href="jadwal-ujian-semester.php">Ujian Semester</a>
+    </div>
+</div>
 <div class="content">
     <div class="container">
 
@@ -48,6 +55,8 @@
                                 <option value="2">UAS</option>
                             </select>
                         </div>
+
+                        <a href="cetak-kartu-ujian.php" target="_blank"><button class="btn btn-submit btn-primary" style="width: 190px;padding:0.5rem;margin-top: 0px" id="button-view">Download Kartu Ujian</button></a>
 
                     </div>
                 </div>

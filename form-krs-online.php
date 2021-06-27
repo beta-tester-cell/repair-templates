@@ -1,5 +1,12 @@
 <?php include('header.php') ?>
-
+<div class="breadcrumb-wrapper">
+    <div class="breadcrumb">
+        <a href="index.php">Dashboard</a>
+        <a href="#">Mahasiswa</a>
+        <a href="#">Perkuliahan</a>
+        <a href="form-krs-online.php">KRS Online</a>
+    </div>
+</div>
 <div class="content">
 
     <div class="container">
@@ -19,49 +26,30 @@
                     <div class="d-flex grid-gap-1 py-1 flex-change">
 
                         <div class="filtering-tahun-akademik">
-                            <select name="tahunakademik" id="tahunakademik">
-                                <option value="">-- Pilih Tahun Akademik --</option>
-                                <option value="2017/2018">2017/2018</option>
-                                <option value="2018/2019">2018/2019</option>
-                                <option value="2019/2020">2019/2020</option>
-                                <option value="2020/2021" selected>2020/2021</option>
-                            </select>
+                            <label><b>Tahun Akademik</b> : </label>
+                            <label>2020/2021</label>
                         </div>
 
-                        <div class="filtering-semester">
-                            <select name="semester" id="semester">
-                                <option value="">-- Pilih Semester --</option>
-                                <option value="1" selected>1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                            </select>
+                        <div class="filtering-tahun-akademik">
+                            <label><b>Semester</b> : </label>
+                            <label>1 (Ganjil)</label>
                         </div>
 
-                        <div class="filtering-jurusan">
-                            <select name="jurusan" id="jurusan">
-                                <option value="">-- Pilih Jurusan --</option>
-                                <option value="1">Administrasi Bisnis</option>
-                                <option value="2">Administrasi Perkantoran</option>
-                                <option value="3" selected>Informatika Komputer</option>
-                                <option value="4">Komputerisasi Akuntansi</option>
-                            </select>
+                        <div class="filtering-tahun-akademik">
+                            <label><b>Jurusan</b> : </label>
+                            <label>Informatika Komputer</label>
                         </div>
 
-                        <div class="check-all-btn" style="margin-top:8px">
+                        <div class="check-all-btn" style="margin-top:0px">
                             <input type="checkbox" name="check-all" id="check-all">
                             <label><b>Check All</b></label>
                         </div>
 
-                        <button class="btn btn-submit btn-primary" style="width: 150px;padding:0.5rem" id="button-view">Simpan</button>
+                        <button class="btn btn-submit btn-primary" style="width: 150px;padding:0.5rem;margin-top: -6px" id="button-view">Simpan</button>
                     </div>
 
                     <div class="table-responsive">
-                        <table class="basic-table" id="datatable">
+                        <table class="table-list" id="datatable">
                             <thead>
                                 <tr>
                                     <th class="align-left" colspan="2">No</th>
